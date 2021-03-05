@@ -1,0 +1,43 @@
+/* .testimonials{
+    margin: 20px;
+} */
+html {
+    margin:    0 auto;
+    max-width: 1200px;
+}
+.testi-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.testi-author{
+    display: flex;
+}
+.testi-icon{
+    text-align: center;
+}
+.testi-author img{
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+.author-title{
+    margin-left: 20px;
+    line-height: 7px;
+}
+.author-title h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+.author-title small{
+    font-size: 10px;
+}
+.istar{
+    color: #EAA451;
+}
+.main-col{
+    border: 1px solid black;
+}
+.main-col p{
+    text-align: center;
+}

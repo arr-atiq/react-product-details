@@ -1,5 +1,9 @@
+html {
+    margin:    0 auto;
+    max-width: 1000px;
+}
 .main-description{
-    margin: 50px;
+    margin-bottom: 50px;
 }
 .product-allInfo{
     display: flex;
@@ -23,7 +27,7 @@
 }
 .product-icon{
     height: 170px;
-    margin: 15px 0 0 20px;
+    margin: 15px 0 0 10px;
 }
 .product-description .icon-shipping{
     display: flex;
@@ -116,7 +120,7 @@
     font-size: 8px;
 }
 .last-para p{
-    margin: 30px 20px 0 25px;
+    padding: 0 50px 0 50px;
     text-align: justify;
 }
 .productPB{

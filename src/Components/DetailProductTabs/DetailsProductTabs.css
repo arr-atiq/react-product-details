@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+    margin:    0 auto;
+    max-width: 1200px;
+}
 body {
   background: #fff;
 }
@@ -135,8 +138,12 @@ table {
  .sameBook{
      margin-top: 10px;
  }
+ .relatedBooks{
+     margin-left: 70px;
+ }
  .relatedBooks h3{
      font-weight: bold;
+     margin-top: -20px;
  }
  .table-tag .tag{
      display: flex;
