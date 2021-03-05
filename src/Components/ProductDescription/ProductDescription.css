@@ -1,0 +1,202 @@
+.main-description{
+    margin: 50px;
+}
+.product-allInfo{
+    display: flex;
+    height: 500px;
+}
+.product-allInfo img{
+    width: 20%;
+    height: 450px;
+}
+.product-description{
+    display: flex;
+}
+.review-author{
+    width: 540px;
+    height: 170px;
+    margin: 10px 0 0 20px;
+}
+.review-author h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.product-icon{
+    height: 170px;
+    margin: 15px 0 0 20px;
+}
+.product-description .icon-shipping{
+    display: flex;
+    width: 460px;
+    margin-top: 40px;
+}
+.div-icon{
+    display: flex;
+    margin-top: 20px;
+}
+.div-icon .istar{
+    color: orange;
+}
+.div-icon .iblank{
+    color: gray;
+}
+.div-icon .countN{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div-first-author{
+    margin-left: 30px;
+}
+.div-first-author p{
+    font-size: 15px;
+    color: gray;
+    line-height: 10px;
+}
+.div-all-author{
+    margin: 20px 0 0 0;
+}
+.div-all-author h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+.div-like{
+    display: flex;
+}
+.div-like p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.div-like .imessenge{
+    color: orange;
+    margin-right: 8px;
+}
+.div-like .ithumbs{
+    color: orange;
+    margin-right: 8px;
+}
+.div-social{
+    margin-left: 40px;
+}
+.div-social a{
+    margin-right: 25px;
+    font-size: 20px;
+}
+.youtube-social{
+    color: red;
+}
+.instagram-social{
+    color: #FD5688;
+}
+.div-all-author{
+    display: flex;
+}
+.div-all-author img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+.div-button{
+    margin: 40px 0 0 80px;
+}
+.div-button button{
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.div-button .stock{
+    color: green;
+    margin-left: 35px;
+}
+.div-button i{
+    font-size: 8px;
+}
+.last-para p{
+    margin: 30px 20px 0 25px;
+    text-align: justify;
+}
+.productPB{
+    display: flex;
+}
+.priceBtn{
+    display: flex;
+    margin: 25px 0 0 25px;
+    
+}
+.priceBtn h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.priceBtn p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.priceBtn .percentP{
+    width: 30px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF754C;
+}
+.productCartBtn{
+    margin-left: 400px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    height: 40px;
+}
+.productCartBtn input{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 150px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+}
+.productCartBtn button{
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+.addCartBtn{
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 0 0 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.addCartBtn i{
+    font-size: 8px;
+}
+.productCartBtn .plus{
+    color: #EAA451;
+    font-weight: bold;
+    font-size: 18px;
+}
+.productCartBtn .minus{
+    color: #EAA451;
+    font-weight: bold;
+    font-size: 18px;
+}
+.heartIcon{
+    margin-top: 35px;
+    margin-left: 20px;
+    color: #EAA451;
+    font-size: 8px;
+}
