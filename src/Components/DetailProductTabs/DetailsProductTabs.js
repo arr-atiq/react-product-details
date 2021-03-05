@@ -54,7 +54,9 @@ function DetailProductTabs() {
                                     </tr>
                                     <tr>
                                         <td>Tags</td>
-                                        <td></td>
+                                        <td className="tag">
+                                            <span>Adventure</span><span>Nature</span><span>Movie</span><span>Thriller</span><span>Book</span>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>
