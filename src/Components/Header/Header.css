@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.all-navItems{
+  display: flex;
+  margin-top: 40px;
+}
+.navBrand{
+  display: flex;
+  line-height: 5px;
+}
+.navBrand h1{
+  font-size: 40px;
+}
+.navBrand span{
+  color: orange;
+}
+.icon{
+  color: orange;
+  font-size: 70px;
+}
+.title{
+  margin-left: 72px;
+}
+.wrapper{
+    margin-left: 80px;
+    display: flex;
+
+}
+
+.wrapper .search_box{
+  width: 450px;
+  background: whitesmoke;
+  height: 50px;
+  display: flex;
+  padding: 10px;
+}
+.menus{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+}
+#dropdown-basic{
+  background-color: whitesmoke;
+  margin-top: -5px;
+  margin-left: 40px;
+  outline: none;
+  border: none;
+}
+.main-btn{
+  margin-left: 20px;
+}
+#navLoginBtn{
+  width: 100px;
+  height: 48px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#navSignUpBtn{
+  width: 120px;
+  height: 48px;
+  margin-left: 10px;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+}
+.wrapper .search_box .dropdown{
+  width: 120px;
+  cursor: pointer;
+}
+.wrapper .search_box .dropdown:before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.wrapper .search_box .search_field{
+  width: 560px;
+  height: 100%;
+  position: relative;
+}
+
+.wrapper .search_box .search_field .input{
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 38px;
+  color: #6f768d;
+}
+.search_field .input{
+  background-color: whitesmoke;
+}
+.wrapper .search_box .search_field .fas{
+  position: absolute;
+  left: 240px;
+  font-size: 22px;
+  color: gray;
+  cursor: pointer;
+  font-weight: 100;
+}
