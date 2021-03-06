@@ -207,78 +207,7 @@ html {
 
 /* add media queries for responsiveness */
 
-@media only screen and (device-width: 992px) {
-    html{
-        max-width: 600px;
-    }
-    .product-allInfo{
-        display: inline;
-    }
-    .product-allInfo img{
-        width: 46%;
-        height: 250px;
-    }
-    .product-description{
-        max-width: 300px;
-        display: inline;
-    }
-    .icon-shipping{
-        max-width: 320px;
-        margin-left: 5px;
-    }
-    .div-like p{
-        font-size: 10px;
-        margin-left: 5px;
-    }
-    .div-social{
-        margin-left: 55px;
-    }
-    .div-button{
-        margin-left: 18px;
-        max-width: 300px;
-    }
-    .div-social a{
-        font-size: 18px;
-        margin-right: 10px;
-    }
-    .priceBtn{
-        margin-left: 50px;
-    }
-    .productCartBtn{
-        margin-left: 100px;
-    }
-    .productPB{
-        max-width: 90%;
-        display: flex;
-    }
-    .review-author h1{
-        font-size: 20px;
-    }
-    .div-all-author{
-        max-width: 300px;
-    }
-    .div-all-author img{
-        width: 30px;
-        height: 35px;
-        border-radius: 5px;
-    }
-    .div-all-author h3{
-        font-size: 13px;
-        line-height: 2px;
-    }
-    .div-first-author{
-        margin-left: 10px;
-    }
-    .last-para{
-        max-width: 290px;
-        text-align: justify;
-        margin-left: 30px;
-    }
-    .productPB{
-        display: inline;
-    }
-}
-@media(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .product-allInfo{
         max-width: 580px;
         display: flex;
@@ -352,3 +281,83 @@ html {
     }
 
 }
+/* @media screen and (min-width: 992px) {
+    .product-allInfo{
+        max-width: 580px;
+        display: flex;
+        flex-direction: column;
+       flex-direction: column;
+    }
+    .product-allInfo img{
+        width: 460px;
+        height: 290px;
+        position: absolute;
+    }
+    .review-author{
+        display: inline;
+    }
+    .review-author h1{
+        font-size: 20px;
+    }
+    .product-description{
+        margin-left: 80%;
+    }
+    .icon-shipping{
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-icon{
+        margin-left: 30px;
+    }
+    .div-button{
+        margin-left: 10%;
+    }
+    .div-button button{
+        width: 90px;
+        font-size: 7px;
+    }
+    .div-button i{
+        font-size: 5px;
+    }
+    .div-all-author{
+        display: inline;
+    }
+    .div-all-author img{
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .div-first-author{
+        margin: 5px 0 0 60px;
+        line-height: 0;
+    }
+    .last-para {
+        font-size: 15px;
+        max-width: 100%;
+        margin-top: 25%;
+        text-align: justify;
+    }
+    .productPB{
+        max-width: 450px;
+        margin-left: 5%;
+    }
+    .addCartBtn{
+        width: 80px;
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .addCartBtn i{
+        font-size: 5px;
+    }
+    .productCartBtn input{
+        width: 5px;
+    }
+    .productCartBtn{
+        margin-left: 5px;
+        border: none;
+    }
+
+} */
+
