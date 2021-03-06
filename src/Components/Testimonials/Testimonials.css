@@ -3,11 +3,18 @@
 } */
 html {
     margin:    0 auto;
-    max-width: 1200px;
+    max-width: 1312px;
+}
+.testimonials-says{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .testi-title{
     text-align: center;
     margin-top: 50px;
+}
+.testi-title p{
+    margin: 50px 0 50px 0;
 }
 .testi-author{
     display: flex;
@@ -18,7 +25,7 @@ html {
 .testi-author img{
     width: 40px;
     height: 40px;
-    margin-left: 70px;
+    margin-left: 40px;
     border-radius: 20px;
 }
 .author-title{
@@ -35,9 +42,26 @@ html {
 .istar{
     color: #EAA451;
 }
-.main-col{
-    border: 1px solid black;
+@media (max-width:480px){
+    .testimonials-says{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .testi-div p{
+        text-align: center;
+    }
+    .testi-author{
+        margin: 0 0 40px 70px;
+    }
+    .testi-title p{
+        text-align: center;
+        margin-bottom: 50px;
+        align-items: center;
+    }
 }
-.main-col p{
-    text-align: center;
+@media (max-width:740px){
+    .testimonials-says{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }

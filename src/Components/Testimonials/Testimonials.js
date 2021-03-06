@@ -11,8 +11,8 @@ const Testimonials = () => {
                 <h1>Testimonials</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti est laborum harum dolores quas, laboriosam nobis vel nam dolorum?</p>
             </div>
-            <div className="row">
-                <div className="col-3 main-col">
+            <div className="testimonials-says">
+                <div className="testi-div">
                     <div className="testi-icon">
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>
@@ -29,7 +29,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-3 main-col">
+                <div className="testi-div">
                     <div className="testi-icon">
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>
@@ -46,7 +46,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-3 main-col">
+                <div className="testi-div">
                     <div className="testi-icon">
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>
@@ -63,7 +63,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-3 main-col">
+                <div className="testi-div">
                     <div className="testi-icon">
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>
                         <i className="istar"><FontAwesomeIcon icon={faStar} /></i>

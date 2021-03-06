@@ -1,0 +1,111 @@
+html {
+    margin:    0 auto;
+    max-width: 1200px;
+}
+.footer{
+    margin: 20px;
+}
+.footer h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.footer i{
+    margin-right: 10px;
+}
+.categories-section{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.all-categories{
+    margin: 35px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.about-author{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.footer-brand{
+    display: flex;
+}
+.footer-brand span{
+    color: orange;
+}
+.footer-brand h1{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.all-info{
+    margin: 25px 55px;
+}
+.all-info h6{
+    margin: -45px 0 0 90px;
+}
+.all-info p{
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.all-info img{
+    width: 100%;
+    margin-left: -40px;
+}
+.all-icon{
+    margin-top: 40px;
+}
+.all-icon a{
+    margin-left: 20px;
+    
+}
+.youtube-social{
+    color: red;
+}
+.twitter-social{
+    color: #3cb5db;
+}
+.linkedin-social{
+    color: #286FA3;
+}
+.instagram-social{
+    color: #FD5688;
+}
+
+.our-info h1{
+    font-size: 15px;
+    font-weight: 200;
+}
+.copy-right p{
+    text-align: center;
+}
+@media screen and(max-width:1200px){
+    .categories-section{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .about-author{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and(max-width:992px){
+    .categories-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .about-author{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and(max-width:600px){
+    .categories-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .about-author{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
